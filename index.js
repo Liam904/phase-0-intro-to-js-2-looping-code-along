@@ -14,10 +14,10 @@ function countDown(number) {
     let messages = [];
     for (let i = 0; i < names.length; i++) {
       messages.push(`Thank you, ${names[i]}, for the wonderful ${eventName} gift!`);
+    console.log()
     }
     return messages;
   }
   
-  // Example usage
-  let messages = writeCards(["Charlie", "Samip", "Ali"], "birthday");
+let messages = writeCards(["Charlie", "Samip", "Ali"], "birthday");
   console.log(messages);
